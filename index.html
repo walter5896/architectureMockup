@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Earthmark Studios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css" />
+
+ <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap"
+  rel="stylesheet"
+/>
+
+</head>
+
+<body>
+  <div id="headerWrapper">
+    <header>
+      <img
+        srcset="
+          images/logo1x.png 1x,
+          images/logo2x.png 2x,
+          images/logo3x.png 3x
+        "
+        src="images/logo1x.png"
+        alt="Earthmark Studios Logo"
+        width="50"
+        height="auto"
+      />
+      <span>EarthMark Studios</span>
+    </header>
+  </div>
+  <!-- end header wrapper -->
+
+  <div id="navWrapper">
+    <nav>
+      <ul>
+        <li class="active"><a href="#" aria-current="page">Inspire</a></li>
+        <li><a href="#" aria-current="false">Process</a></li>
+        <li><a href="#" aria-current="false">Build</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- end nav wrapper -->
+
+  <main id="mainWrapper">
+    <picture class="hero">
+      <source media="(min-width: 1100px)" srcset="images/herolarge.webp" type="image/webp" />
+      <source media="(min-width: 700px)" srcset="images/heromedium.webp" type="image/webp" />
+      <source media="(max-width: 699px)" srcset="images/herosmall.webp" type="image/webp" />
+      <img
+        src="images/herosmall.webp"
+        alt="Architectural detail of a modern building"
+        loading="lazy"
+      />
+    </picture>
+ <!-- Video Section -->
+    <section class="projectVideo">
+      <h2>Built on a Solid Foundation</h2>
+      <p class="videoTagline">
+        At EarthMark Studios, we craft timeless architecture with purpose, just like the historic structures that inspire us.
+      </p>
+
+      <video controls preload="metadata" poster="images/video-poster.jpg">
+        <source src="media/Polishedvid.mp4" type="video/mp4" />
+        <source src="media/Polishedvid.webm" type="video/webm" />
+        <track
+          label="English"
+          kind="subtitles"
+          srclang="en"
+          src="media/captionsEng.vtt"
+          default
+        />
+        <track
+          label="Español"
+          kind="subtitles"
+          srclang="es"
+          src="media/captionsSpa.vtt"
+        />
+        Your browser does not support the video tag.
+      </video>
+
+      <details>
+        <summary>View Full Transcript</summary>
+        <p>I'm here at Brigham Young Academy Square. At EarthMark Studios, we believe that great design tells a story.</p>
+        <p>This is the Beehive Fountain, which was established all the way in 1914. I think it's a beautiful structure that represents industry and has been here for over a century.</p>
+        <p>When you look over here, you can see the 1891 inscription at the entrance. It's got strong bricks, arched windows — all hallmarks of great, enduring design.</p>
+        <p>As we approach the entrance, you can see more strong vertical lines and Romanesque arches. All of these elements give the building its solid foundation, and it's no wonder it's lasted such a long time.</p>
+        <p>This building was built with purpose on a solid foundation. That's what we intend to do with every project that we do here at EarthMark Studios.</p>
+      </details>
+    </section>
+  </main>
+
+  <div id="footerWrapper">
+    <footer>
+      <p>
+        Copyright &copy; 2025 Earthmark Studios. All rights reserved. &nbsp;|&nbsp; Designed by Walter Blundell
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
