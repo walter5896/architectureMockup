@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css" />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap"
-    rel="stylesheet"
-  />
+ <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap"
+  rel="stylesheet"
+/>
+
 </head>
 
 <body>
@@ -28,6 +29,7 @@
         src="images/logo1x.png"
         alt="Earthmark Studios Logo"
         width="50"
+        height="auto"
       />
       <span>EarthMark Studios</span>
     </header>
@@ -56,32 +58,31 @@
         loading="lazy"
       />
     </picture>
-
-    <!-- Video Section -->
+ <!-- Video Section -->
     <section class="projectVideo">
       <h2>Built on a Solid Foundation</h2>
       <p class="videoTagline">
         At EarthMark Studios, we craft timeless architecture with purpose, just like the historic structures that inspire us.
       </p>
 
-      <video controls preload="metadata" poster="images/video-poster.jpg">
-        <source src="media/Polishedvid.mp4" type="video/mp4" />
-        <source src="media/Polishedvid.webm" type="video/webm" />
-        <track
-          label="English"
-          kind="subtitles"
-          srclang="en"
-          src="media/captionsEng.vtt"
-          default
-        />
-        <track
-          label="Español"
-          kind="subtitles"
-          srclang="es"
-          src="media/captionsSpa.vtt"
-        />
-        Your browser does not support the video tag.
-      </video>
+      <video controls preload="metadata" width="100%">
+  <source src="media/Polishedvid.mp4" type="video/mp4" />
+  <source src="media/Polishedvid.webm" type="video/webm" />
+  <track
+    label="English"
+    kind="subtitles"
+    srclang="en"
+    src="media/captionsEng.vtt"
+    default
+  />
+  <track
+    label="Español"
+    kind="subtitles"
+    srclang="es"
+    src="media/captionsSpa.vtt"
+  />
+  Your browser does not support the video tag.
+</video>
 
       <details>
         <summary>View Full Transcript</summary>
@@ -104,4 +105,3 @@
 </body>
 
 </html>
-
